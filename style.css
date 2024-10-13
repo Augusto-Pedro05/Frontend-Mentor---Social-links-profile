@@ -1,0 +1,79 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Inter-Regular;
+}
+#card{
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#img-perfil{
+    border-radius: 50%;
+    width: 75px;
+    padding-bottom: 8px;
+}
+#user{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    font-family: Bold-Regular;
+    margin-bottom: 0px;
+}
+#local{
+    color: hsl(75, 94%, 57%);
+    font-size: 0.64rem;
+    font-weight: bold;
+    font-family: Bold-Regular;
+    padding-bottom: 15px;
+    margin-top: 8px;
+}
+#description{
+    font-size: 0.65rem;
+}
+.social-media{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: 0vh;
+    padding: 0vh;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-top: 12px;
+    border-radius: 5px;
+    width: 230px;
+    font-weight: bold;
+    font-family: Bold-Regular;
+    font-size: 0.7rem;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 80px;
+}
+.social-media:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Bold-Regular;
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: SemiBold-Regular;
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
